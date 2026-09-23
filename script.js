@@ -63,7 +63,7 @@ function cube(num, callback){
     callback(result);
 }
 
-cube(6,function(result){
+cube(7,function(result){
     
     document.getElementById("demo2").innerHTML="6 * 6 * 6 ="+result;
 });
