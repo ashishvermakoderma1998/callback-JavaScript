@@ -65,7 +65,7 @@ function cube(num, callback){
 
 cube(7,function(result){
     
-    document.getElementById("demo2").innerHTML="7 * 7 * 6 ="+result;
+    document.getElementById("demo2").innerHTML="7 * 7 * 7 ="+result;
 });
 
 // Question: Create toUpperCase(str, callback) and pass the uppercase string to the callback.
