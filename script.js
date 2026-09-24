@@ -123,7 +123,7 @@ function printArray(arr, callback){
 callback(arr);
 }
 
-printArray([10,20,30,40,50], function(arr){
+printArray([10,20,], function(arr){
     arr.forEach(function(value){
         
         document.getElementById("demo5").innerHTML +=value +"<br>";
@@ -174,3 +174,5 @@ function calculateSum(numbers, callback){
 calculateSum([10,12,13,14,55], function(result){
     console.log(result);
 });
+
+
