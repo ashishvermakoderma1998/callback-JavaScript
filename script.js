@@ -123,7 +123,7 @@ function printArray(arr, callback){
 callback(arr);
 }
 
-printArray([10,20,22], function(arr){
+printArray([10,20,22,25], function(arr){
     arr.forEach(function(value){
         
         document.getElementById("demo5").innerHTML +=value +"<br>";
